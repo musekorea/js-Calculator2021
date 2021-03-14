@@ -36,3 +36,7 @@ function del() {
   a = a.join('');
   input.value = a;
 }
+
+//값이 비었을때 = 클릭하면 undefined 나오는 문제
+//() bracket function 구현하기
+//eval()을 쓰지 않는다면 어떻게 구현해야 할지 고민

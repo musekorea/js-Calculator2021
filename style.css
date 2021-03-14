@@ -1,6 +1,6 @@
 :root {
-  --shadowPop: inset 6px 6px 9px white, 6px 6px 6px rgba(0, 0, 0, 0.4),
-    -2px -2px 9px rgba(255, 255, 255, 0.877),
+  --shadowPop: inset 1px 1px 1px rgb(197, 193, 193),
+    6px 6px 6px rgba(0, 0, 0, 0.4), -2px -2px 9px rgba(255, 255, 255, 0.877),
     inset -1px -1px 2px rgba(0, 0, 0, 0.9);
   --shadowDent: inset 6px 6px 9px rgba(0, 0, 0, 0.4), inset -6px -6px 9px white;
 }
@@ -73,5 +73,13 @@ button:active {
   text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
 }
 .equal {
-  color: cornflowerblue;
+  background-color: #55e6e7;
+}
+.delBtn {
+  background-color: #ebd27a;
+  box-shadow: var(--shadowPop);
+}
+.clear {
+  background-color: #b33e3f;
+  color: black;
 }
