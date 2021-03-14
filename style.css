@@ -83,3 +83,16 @@ button:active {
   background-color: #b33e3f;
   color: black;
 }
+
+.key.active {
+  animation: buttonClick 0.5s ease;
+}
+
+@keyframes buttonClick {
+  from {
+    transform: scale(0.9);
+  }
+  to {
+    transform: scale(1);
+  }
+}
